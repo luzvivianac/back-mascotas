@@ -89,7 +89,7 @@ WSGI_APPLICATION = 'pets_project.wsgi.application'
         },
     }
 }"""
-
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
@@ -97,6 +97,20 @@ DATABASES = {
         'USER': 'luditics',
         'PASSWORD': 'Lud1t1cs2019**',
         'HOST': 'luditics-server.database.windows.net',
+        'PORT': '1433',
+        'OPTIONS': {
+            'driver': 'SQL Server',
+        },
+    }
+}
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'sql_server.pyodbc',
+        'NAME': 'db_LudiTICs',
+        'USER': 'luditicsmascotas',
+        'PASSWORD': 'Lud1t1cs2019**',
+        'HOST': 'luditicsmascotas.mysql.pythonanywhere-services.com',
         'PORT': '1433',
         'OPTIONS': {
             'driver': 'SQL Server',
