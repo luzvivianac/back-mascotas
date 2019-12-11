@@ -107,7 +107,7 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_LudiTICs',
+        'NAME': 'luditicsmascotas$db_LudiTICs',
         'USER': 'luditicsmascotas',
         'PASSWORD': 'Lud1t1cs2019**',
         'HOST': 'luditicsmascotas.mysql.pythonanywhere-services.com',
