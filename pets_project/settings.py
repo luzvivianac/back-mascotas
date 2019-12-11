@@ -106,15 +106,12 @@ DATABASES = {
 """
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'db_LudiTICs',
         'USER': 'luditicsmascotas',
         'PASSWORD': 'Lud1t1cs2019**',
         'HOST': 'luditicsmascotas.mysql.pythonanywhere-services.com',
-        'PORT': '1433',
-        'OPTIONS': {
-            'driver': '{ODBC Driver 17 for SQL Server}',
-        },
+        'PORT': '3306',
     }
 }
 
