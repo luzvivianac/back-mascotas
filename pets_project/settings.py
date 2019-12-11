@@ -113,7 +113,7 @@ DATABASES = {
         'HOST': 'luditicsmascotas.mysql.pythonanywhere-services.com',
         'PORT': '1433',
         'OPTIONS': {
-            'driver': 'SQL Server',
+            'driver': '{ODBC Driver 17 for SQL Server}',
         },
     }
 }
